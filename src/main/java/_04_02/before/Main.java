@@ -7,6 +7,7 @@ public class Main {
         helloWorldGreeting.printMessage();
         GoodMorningGreeting goodMorningGreeting = new GoodMorningGreeting();
         goodMorningGreeting.printMessage();
+
     }
 
 }

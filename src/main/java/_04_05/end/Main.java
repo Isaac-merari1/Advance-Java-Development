@@ -8,7 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
         List<String> fruit = Arrays.asList("apple", "pineapple", "banana", "pear", "strawberry");
-        List<String> capitalisedFruit = processWithoutStreams(fruit);
+//        List<String> capitalisedFruit = processWithoutStreams(fruit);
+        List<String> capitalisedFruit = processWithStreams(fruit);
         System.out.println(capitalisedFruit);
     }
 

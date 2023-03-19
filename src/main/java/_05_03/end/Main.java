@@ -12,6 +12,9 @@ public class Main {
 
         threadOne.start();
         threadTwo.start();
+
+        System.out.println(threadOne.getName());
+        System.out.println(threadTwo.getName());
     }
 
 }
